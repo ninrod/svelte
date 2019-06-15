@@ -1,5 +1,5 @@
 <script>
-
+ export let userName;
 </script>
 
 <style>
@@ -61,7 +61,7 @@
       <img src="" alt=""/>
     </div>
     <div class="user-data">
-      <h1>User Name</h1>
+      <h1>{userName}</h1>
       <h2>Job Title</h2>
     </div>
   </header>

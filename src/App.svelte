@@ -22,4 +22,4 @@
 <button on:click="{incrementAge}">Change Age</button>
 <input type="text" bind:value="{name}"/>
 
-<ContactCard/>
+<ContactCard userName={name}/>
