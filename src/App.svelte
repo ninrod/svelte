@@ -25,9 +25,13 @@
 <button on:click="{incrementAge}">Change Age</button>
 
 <input type="text" bind:value="{name}"/>
+<br/>
 <input type="text" bind:value="{job}"/>
+<br/>
 <input type="text" bind:value="{imgURL}"/>
+<br/>
 <textarea type="text" bind:value="{description}"/>
+<br/>
 
 
 <ContactCard
