@@ -3,9 +3,9 @@
 
  let name = 'Max';
  let age = 30;
- let job = "";
- let description = "";
- let imgURL = "";
+ let job = "job title";
+ let description = "my description";
+ let imgURL = "https://via.placeholder.com/300.png/09f/fff";
 
  $: upper = name.toUpperCase();
  $: console.log(name);
@@ -37,6 +37,6 @@
 <ContactCard
   userName={name}
   jobTitle={job}
-  description={description}
+  {description}
   imgURL={imgURL}
 />
